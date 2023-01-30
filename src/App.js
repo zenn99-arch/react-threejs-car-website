@@ -36,7 +36,7 @@ function CarShow() {
         {(texture) => (
           <>
             <Environment map={texture} />
-            {/* <Car /> */}
+            <Car />
           </>
         )}
       </CubeCamera>
@@ -60,9 +60,9 @@ function CarShow() {
         shadow-bias={-0.0001}
       />
       <Ground />
-      {/* <FloatingGrid /> */}
-      {/* <Boxes />
-      <Rings /> */}
+      <FloatingGrid />
+      <Boxes />
+      <Rings />
 
       <EffectComposer>
         {/* <DepthOfField focusDistance={0.0035} focalLength={0.01} bokehScale={3} height={480} /> */}
